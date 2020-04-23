@@ -29,6 +29,7 @@
 	background-color: rgba(25, 25, 112, 0.1);
 	margin-bottom: 40px;
 	border-radius: 5px;
+	color: #191970;
 }
 .form_input:focus {
 	outline: none;
@@ -41,7 +42,6 @@
 	position: absolute;
 	margin-top: -85px;
 	z-index: -20;
-	color: rgba(0, 0, 0, 1);
 	transition: all 0.2s;
 	color: #191970;
 }

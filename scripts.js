@@ -1,6 +1,7 @@
 const form = document.querySelector('.form');
 const inputs = document.querySelectorAll('.form_input');
 const btnSubmit = document.querySelector('#btn_submit');
+const inputName = document.querySelector('#input_name');
 
 for (let i = 0; i < inputs.length; i++) {
 	inputs[i].addEventListener('keyup', function() {
@@ -29,6 +30,7 @@ btnSubmit.addEventListener('click', event => {
 		inputs.forEach(input =>
 			input.value = ''
 		)
-		alert('Thanks for your time!')
+		alert(`Thanks for submit!`)
 	}
 })
+
