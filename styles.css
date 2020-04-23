@@ -62,6 +62,24 @@
 .form_submit:nth-child(2) {
 	width: 70%;
 }
-.fijar {
-	margin-top: -135px;
+.fixar {
+	margin-top: -130px;
+}
+form.validate-error {
+	animation: nono 200ms linear, fade paused;
+	animation-iteration-count: 2;
+}
+@keyframes nono {  /* form vibrates when empty */
+	0%{ 
+		transform: translateX(0);
+	}
+	35%{
+		transform: translateX(-8%);
+	}
+	70%{
+		transform: translateX(8%);
+	}
+	100%{
+		transform: translateX(0);
+	}
 }
