@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+.header_title {
+	text-align: center;
+	margin: 30px;
+	color: #191970;
+}
+.form {
+	width: 500px;
+	max-width: 100%;
+	margin: auto;
+	padding: 40px 20px;
+	box-shadow: 0 0 20px 1px rgba(25, 25, 112, 0.3);
+	position: relative;
+}
+.form_input, .form_label, .form_submit {
+	display: block;
+	width: 100%;
+	font-size: 18px;
+}
+.form_input {
+	padding: 20px;
+	border: 0;
+	background-color: rgba(25, 25, 112, 0.1);
+	margin-bottom: 40px;
+	border-radius: 5px;
+}
+.form_input:focus {
+	outline: none;
+}
+.form_input:focus + .form_label {
+	margin-top: -130px;
+}
+.form_label {
+	padding-left: 15px;
+	position: absolute;
+	margin-top: -85px;
+	z-index: -20;
+	color: rgba(0, 0, 0, 1);
+	transition: all 0.2s;
+	color: #191970;
+}
+.form_btn {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.form_submit {
+	background: #191970;
+	color: #fff;
+	padding: 10px 20px;
+	cursor: pointer;
+	border: none;
+	border-radius: 5px;
+	width: 25%;
+}
+.form_submit:nth-child(2) {
+	width: 70%;
+}
+.fijar {
+	margin-top: -135px;
+}
